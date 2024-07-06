@@ -21,7 +21,7 @@ class Car extends Vehicle {
 	}
 }
 
-class Motorcycle extends Car {
+class Motorcycle extends Vehicle {
 	constructor(make, model, year) {
 		super(make, model, year);
 		this.numWheels = 2;
